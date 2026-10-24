@@ -1,7 +1,7 @@
 name: pinprismpop
 description: "Pin Prism Pop - pin prisms for bonus"
 publish_to: 'none'
-version: 1.0.0+2
+version: 1.0.0+3
 
 environment:
   sdk: ^3.13.5
@@ -39,3 +39,7 @@ flutter:
     - assets/sfx/win.wav
     - assets/sfx/lose.wav
     - assets/sfx/music_loop.wav
+  fonts:
+    - family: BowlbyOne
+      fonts:
+        - asset: assets/fonts/BowlbyOne-Regular.ttf

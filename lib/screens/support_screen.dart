@@ -104,15 +104,4 @@ class _SupportScreenState extends State<SupportScreen> {
       child: Text(label, style: const TextStyle(fontFamilyFallback: const ['Noto Color Emoji'], fontSize: 16, fontWeight: FontWeight.bold)),
     );
 
-  Widget _tipBtn(String label, String productId, Color bg) => SizedBox(
-    width: double.infinity,
-    child: ElevatedButton(
-      style: ElevatedButton.styleFrom(backgroundColor: bg, foregroundColor: Colors.white,
-          elevation: 6, shadowColor: Colors.black54,
-          padding: const EdgeInsets.symmetric(vertical: 16),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14))),
-      onPressed: () => _tip(productId, label),
-      child: Text(label, style: const TextStyle(fontFamilyFallback: const ['Noto Color Emoji'], fontSize: 16, fontWeight: FontWeight.bold)),
-    ),
-  );
 }
